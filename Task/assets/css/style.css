@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#task {
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-image: url("../images/sand-background-1495822670wit.jpg");
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ;
+  border: 1px solid black;
+}
+
+
+.card:hover {
+  transform: translateY(5px);
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 15px; 
+  border-top-right-radius: 15px;
+}
+
+.bottom {
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.pink-bg {
+  background-color: rgb(255, 0, 111);
+}
+
+.orange-bg {
+  background-color: #ff6f00;
+}
+
+.green-bg {
+  background-color: #32cd32;
+}
+
+.card-createdate {
+  font-size: 13px;
+  display: block;
+  color: #ff0080;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.row.text-center span {
+  font-size: 16px;
+}
+
+small {
+  font-size: 12px;
+}
+
+.border-start {
+  border-left: 1px solid rgb(0, 0, 0);
+}
+
+.border-end {
+  border-right: 1px solid rgb(0, 0, 0);
+}
